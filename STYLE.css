@@ -1,0 +1,77 @@
+/* Utilizando el selector universal (apunt a a todos)
+ para realizar el set de CSS*/
+ * {
+  /* se eliminan todos los margin por defecto */
+  margin: 0;
+  /* se eliminan todos los padding por defecto */
+  padding: 0; 
+  /* se elimina el estilo de las listas */
+  list-style-type: none;
+  /* el padding y border se consideran para calcular
+   el tamaño de la caja */
+  box-sizing: border-box;
+  /* se elimina el subrayado de los links <a> */
+  text-decoration: none
+}
+
+body, html {
+  height: 100%;
+}
+
+.cajaaux {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-grow: 14;
+    background-color: blueviolet;
+}   
+
+.father-align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+    
+        /*display: flex;
+        align-items: center;
+        justify-content: center; */
+        
+
+
+    /
+ /*   display: flex;
+    padding: 20px;
+    gap: 20px;
+    height: 100px;
+    justify-content: center;
+    align-items: center; */ 
+  /*width: 400 px;
+  padding: 5 px; */
+  
+}
+.first-container {
+    width : 400px;
+    height: 300px;
+    padding: 10px;
+    background-color: honeydew;
+    border-style: solid;
+    border-color: hotpink;
+    border-width: 30 px;
+    width: 30 px;
+    bottom: center;
+  /* Aquí configurar el display flex
+  de la sección entera */
+}
+.avatar   {
+    display : flex;
+    flex: 4;  
+    justify-content: center;
+    align-items: center;  
+ }  
+
+
+/* Aquí crear los estilos para la clase avatar
+ y configurar el display flex que requiere */
+
+
